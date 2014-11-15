@@ -30,7 +30,7 @@ testing_class = zeros(size(testing_vec,1),1);
 %       http://www.mathworks.com/help/stats/svmclassify.html
 
 svm_struct = svmtrain(training_vec,training_class,'kernel_function','rbf',...
-                    'kktviolationlevel',0.05);
+                    'kktviolationlevel',0.0,'rbf_sigma',0.5);
 validation_class = svmclassify(svm_struct,validation_vec);
 testing_class = svmclassify(svm_struct,testing_vec);
 
