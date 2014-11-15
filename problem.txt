@@ -1,0 +1,11 @@
+Introduction
+
+You have seen several kinds of classification algorithms in class. In this project your task is to design a classification system for real medical data.
+
+Magnetic resonance (MR) images of patients afflicted with Crohn's disease are annotated by clinical experts indicating the diseased regions, and also areas without any disease activity. When done manually, it is a tedious procedure which involves a considerable amount of effort from experts. Hence (semi-)automated systems are preferable in order to identify regions with similar disease activity in an unseen patient dataset. In order to design a robust system, different features are extracted from the images corresponding to the annotated regions, and used to train a classifier.
+
+When an unseen test dataset is provided, the corresponding features are extracted from different regions/pixels and put through the classifier for label prediction (diseased/non-diseased). Your task is to design a classifier which can reliably differentiate between diseased and normal samples.”
+
+Download
+
+The full problem description including dataset description, evaluation metric and the grading policy is available here. The datasets and the report template are available here.
